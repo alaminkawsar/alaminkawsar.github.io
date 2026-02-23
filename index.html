@@ -339,37 +339,6 @@
                 <div class="col-12 col-lg-8">
                     <div class="card-simple">
                         <h3 class="article-title mb-1 mt-3">
-                            LLM Based Automated Test Case Execution
-                        </h3>
-
-                        <div class="article-style">
-                            <p>
-                                This research project, conducted at Samsung R&D Institute, focused on evaluating the <b>effectiveness of large language models (LLMs) in executing test cases</b>. We developed a framework that includes a robust approach for identifying the relevant UI elements needed to perform actions based on test cases using LLM, followed by interacting with these elements using Selenium. Subsequently, we applied semantic similarity-based textual matching between the final screen resulting from the UI interactions and the expected outcome defined in the test case to generate a verdict. My specific contributions involved simplifying web pages into a more generalized format for LLM comprehension, conducting few-shot prompting experiments with <b>LLMs (such as, Solar-10.7B, StableBeluga-13B, LLaMa-2-7B)</b>, preparing dataset, <b>fine-tuning the LLMs (LLaMa-3-8B, Solar-10.7B) </b>model on annotated dataset for UI element identification and generating <b>semantic similarity-based verdicts using all-MiniLM-L6-v2</b> (Sentence Transformer model), given the final screen and expected result. Our approach successfully <b>executed 106 out of 110 targeted test cases</b>, achieving an accuracy of 97%.
-                            </p>
-
-                            <p>
-                                <a href="https://docs.google.com/document/d/1kh05MyKPIZRSnlx-Y0K74PbJeSIg7joem4VECgtPvyM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">[White Paper]</a>
-                            </p>
-
-                            <div style="text-align: left;">
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">LLM</span>
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Generative AI</span>
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Transformer</span>
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">LLaMa-3-8B</span>
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Solar-10.7B</span>
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">all-MiniLM-L6-v2</span>
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Prompt Engineering</span>
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Few-shot prompting</span>
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Data collection</span>
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">PEFT/QLoRa</span>
-                                <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Unsloth</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="card-simple">
-                        <h3 class="article-title mb-1 mt-3">
                             Automated Test Case Creation from UI Guide using Gen AI
                         </h3>
 
@@ -400,30 +369,86 @@
 
                     <div class="card-simple">
                         <h3 class="article-title mb-1 mt-3">
-                            ML Based Automated Android UI testing and Test Case Generation
+                            ✋ Hand Gesture Recognition
                         </h3>
+                            <div class="article-style">
+                                    <ul>
+                                        <li>
+                                            Conducted extensive research on <strong>18 TensorFlow-based deep learning models </strong> for hand gesture recognition with a focus on mobile and edge deployment.
+                                        </li>
+                                            <ul>
+                                                <li>
+                                                    <strong>Lightweight & Mobile-Optimized Models</strong> (Real-time, Edge Devices):
+                                                    SSD MobileNet V1, SSD MobileNet V2, SSD MobileNet V2 FPNLite, SSD MobileNet V3 Small, SSD MobileNet V3 Large, CenterNet MobileNetV2
+                                                </li>
 
-                        <div class="article-style">
-                            <p>
-                                This project is a collaboration between Samsung R&D Institute and RU where we studied the effectiveness of Large Language models in generating and executing test cases for android applications under the supervision of  <a href="https://scholar.google.com/citations?user=jAuiNFgAAAAJ" target="_blank" rel="noopener noreferrer">Dr. Anindya Iqbal</a>. We developed an automated UI testing tool for Android applications that can significantly reduce manual testing efforts by 80% by automatically generating test cases. The tool utilizes a <b>custom DFS algorithm</b> using Appium to traverse the application's UI and write test steps. Additionally,<b> EfficientNet and MaxViT </b> are employed for image classification of unknown screen elements and screen similarity matching for maintaining DFS state, while the <b>Flan-T5 generative model</b> is used to understand screen representations and generate expected results for each test step.
-                            </p>
-                            
-                            <p>
-                                <a href="https://docs.google.com/document/d/17OSX9IUK2L8KHRPYmLY9hNl7oc-rJv7uD4kvAi61h18/edit?usp=sharing" target="_blank" rel="noopener noreferrer">[White Paper]</a>
-                            </p>
-                        </div>
+                                                <li>
+                                                    <strong>Balanced Models (Speed vs Accuracy)</strong>:
+                                                    SSD ResNet50 V1 FPN, SSD ResNet101 V1 FPN, CenterNet ResNet50, CenterNet HourGlass104 (Reduced Input)
+                                                </li>
 
-                        <div style="text-align: left;">
-                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">DFS</span>
-                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Contrastive learning</span>
-                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Transformer</span>
-                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Computer Vision</span>
-                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">EfficientNet</span>
-                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">MaxViT</span>
-                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Flan-T5</span>
-                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Data collection</span>
-                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Cosine similarity</span>
-                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Appium</span>
+                                                <li>
+                                                    <strong>High-Accuracy Models (Heavy / Research-Oriented)</strong>:
+                                                    Faster R-CNN ResNet50, Faster R-CNN ResNet50 FPN, Faster R-CNN ResNet101, Faster R-CNN ResNet101 FPN, Faster R-CNN Inception ResNet V2
+                                                </li>
+
+                                                <li>
+                                                    <strong>Anchor-Free & Modern Architectures</strong>:
+                                                    CenterNet HourGlass104, CenterNet ResNet101
+                                                </li>
+
+                                                <li>
+                                                    <strong>EfficientDet Family (Scalable Detection Models)</strong>:
+                                                    EfficientDet D0, EfficientDet D1, EfficientDet D2, EfficientDet D3, EfficientDet D4, EfficientDet D5, EfficientDet D6, EfficientDet D7
+                                                </li>
+                                            </ul>
+                                        <li>
+                                            Evaluated all models using the <strong><a href="https://github.com/hukenovs/hagrid" target="_blank" rel="noopener noreferrer">HaGRID</a>(Hand Gesture Recognition Dataset)</strong>, consisting of <strong>19 gesture classes</strong>, each approximately <strong>36GB</strong> in size.
+                                        </li>
+                                        <li>
+                                            Due to the large-scale nature of the dataset, randomly sampled <strong>5,000 images per class</strong> to create a balanced and computationally manageable evaluation set.
+                                        </li>
+                                        <li>
+                                            Preprocessed and resized the dataset into multiple input resolutions:
+                                            <strong>244×244, 320×320, 480×480, and 640×640</strong>, enabling analysis of input-size impact on model performance.
+                                        </li>
+                                        <li>
+                                            Benchmarked each model across different resolutions to compare
+                                            <strong>accuracy, inference latency, computational cost, and memory footprint</strong>.
+                                        </li>
+                                        <li>
+                                            Applied <strong>post-training quantization</strong> using fixed bit-width configurations to optimize models for mobile devices.
+                                        </li>
+                                        <li>
+                                            Converted optimized models to <strong>TensorFlow Lite (TFLite)</strong> format for on-device inference testing.
+                                        </li>
+                                        <li>
+                                            Analyzed <strong>performance degradation ratio</strong> by comparing FP32 baseline models with their quantized counterparts, measuring accuracy drop versus efficiency gains.
+                                        </li>
+                                        <li>
+                                            Identified optimal trade-offs between <strong>model accuracy, size, and real-time mobile inference performance</strong>.
+                                        </li>
+                                    </ul>
+
+                                    <p>
+                                        <a href="https://github.com/alaminkawsar/Hand-Gesture-Recognition" target="_blank" rel="noopener noreferrer">[Code]</a>
+                                    </p>
+                                    <span class="middot-divider"></span>
+                                <div style="text-align: left;">
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Hand Gesture Recognition</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Computer Vision</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Deep Learning</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">TensorFlow</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Transfer Learning</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Mobile AI</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Edge AI</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">TensorFlow Lite (TFLite)</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Model Quantization</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">On-Device Inference</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Real-Time Inference</span>
+                                    <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Model Benchmarking</span>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
@@ -514,107 +539,7 @@
                     <div class="row experience">
                         <div class="col-auto text-center flex-column d-none d-sm-flex">
                             <div class="row h-50">
-                                <div class="col ">&nbsp;</div>
                                 <div class="col">&nbsp;</div>
-                            </div>
-                            <div class="m-2">
-                                <span class="badge badge-pill border ">&nbsp;</span>
-                            </div>
-                            <div class="row h-50">
-                                <div class="col border-right">&nbsp;</div>
-                                <div class="col">&nbsp;</div>
-                            </div>
-                        </div>
-                        <div class="col py-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title exp-title text-muted mt-0 mb-1">✋ Hand Gesture Recognition</h4>
-                                    <div class="text-muted exp-meta">
-                                        <span class="middot-divider"></span>
-                                            <ul>
-                                                <li>
-                                                    Conducted extensive research on <strong>18 TensorFlow-based deep learning models </strong> for hand gesture recognition with a focus on mobile and edge deployment.
-                                                </li>
-                                                    <ul>
-                                                        <li>
-                                                            <strong>Lightweight & Mobile-Optimized Models</strong> (Real-time, Edge Devices):
-                                                            SSD MobileNet V1, SSD MobileNet V2, SSD MobileNet V2 FPNLite, SSD MobileNet V3 Small, SSD MobileNet V3 Large, CenterNet MobileNetV2
-                                                        </li>
-
-                                                        <li>
-                                                            <strong>Balanced Models (Speed vs Accuracy)</strong>:
-                                                            SSD ResNet50 V1 FPN, SSD ResNet101 V1 FPN, CenterNet ResNet50, CenterNet HourGlass104 (Reduced Input)
-                                                        </li>
-
-                                                        <li>
-                                                            <strong>High-Accuracy Models (Heavy / Research-Oriented)</strong>:
-                                                            Faster R-CNN ResNet50, Faster R-CNN ResNet50 FPN, Faster R-CNN ResNet101, Faster R-CNN ResNet101 FPN, Faster R-CNN Inception ResNet V2
-                                                        </li>
-
-                                                        <li>
-                                                            <strong>Anchor-Free & Modern Architectures</strong>:
-                                                            CenterNet HourGlass104, CenterNet ResNet101
-                                                        </li>
-
-                                                        <li>
-                                                            <strong>EfficientDet Family (Scalable Detection Models)</strong>:
-                                                            EfficientDet D0, EfficientDet D1, EfficientDet D2, EfficientDet D3, EfficientDet D4, EfficientDet D5, EfficientDet D6, EfficientDet D7
-                                                        </li>
-                                                    </ul>
-                                                <li>
-                                                    Evaluated all models using the <strong><a href="https://github.com/hukenovs/hagrid" target="_blank" rel="noopener noreferrer">HaGRID</a>(Hand Gesture Recognition Dataset)</strong>, consisting of <strong>19 gesture classes</strong>, each approximately <strong>36GB</strong> in size.
-                                                </li>
-                                                <li>
-                                                    Due to the large-scale nature of the dataset, randomly sampled <strong>5,000 images per class</strong> to create a balanced and computationally manageable evaluation set.
-                                                </li>
-                                                <li>
-                                                    Preprocessed and resized the dataset into multiple input resolutions:
-                                                    <strong>244×244, 320×320, 480×480, and 640×640</strong>, enabling analysis of input-size impact on model performance.
-                                                </li>
-                                                <li>
-                                                    Benchmarked each model across different resolutions to compare
-                                                    <strong>accuracy, inference latency, computational cost, and memory footprint</strong>.
-                                                </li>
-                                                <li>
-                                                    Applied <strong>post-training quantization</strong> using fixed bit-width configurations to optimize models for mobile devices.
-                                                </li>
-                                                <li>
-                                                    Converted optimized models to <strong>TensorFlow Lite (TFLite)</strong> format for on-device inference testing.
-                                                </li>
-                                                <li>
-                                                    Analyzed <strong>performance degradation ratio</strong> by comparing FP32 baseline models with their quantized counterparts, measuring accuracy drop versus efficiency gains.
-                                                </li>
-                                                <li>
-                                                    Identified optimal trade-offs between <strong>model accuracy, size, and real-time mobile inference performance</strong>.
-                                                </li>
-                                            </ul>
-
-                                            <p>
-                                                <a href="https://github.com/alaminkawsar/Hand-Gesture-Recognition" target="_blank" rel="noopener noreferrer">[Code]</a>
-                                            </p>
-                                        <div style="text-align: left;">
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Hand Gesture Recognition</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Computer Vision</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Deep Learning</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">TensorFlow</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Transfer Learning</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Mobile AI</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Edge AI</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">TensorFlow Lite (TFLite)</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Model Quantization</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">On-Device Inference</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Real-Time Inference</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">Model Benchmarking</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row experience">
-                        <div class="col-auto text-center flex-column d-none d-sm-flex">
-                            <div class="row h-50">
-                                <div class="col border-right">&nbsp;</div>
                                 <div class="col">&nbsp;</div>
                             </div>
                             <div class="m-2">
@@ -824,73 +749,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="row experience">
-                        <div class="col-auto text-center flex-column d-none d-sm-flex">
-                            <div class="row h-50">
-                                <div class="col border-right">&nbsp;</div>
-                                <div class="col">&nbsp;</div>
-                            </div>
-                            <div class="m-2">
-                                <span class="badge badge-pill border ">&nbsp;</span>
-                            </div>
-                            <div class="row h-50">
-                                <div class="col border-right">&nbsp;</div>
-                                <div class="col">&nbsp;</div>
-                            </div>
-                        </div>
-                        <div class="col py-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title exp-title text-muted mt-0 mb-1">TCP-Logwestwood+</h4>
-                                    <div class="text-muted exp-meta">
-
-                                        <span class="middot-divider"></span>
-                                        <p>
-                                            This project involved implementing the TCP-LogWestwood+ congestion control algorithm using NS3. The performance was evaluated by measuring metrics such as average delay, throughput, packet delivery ratio, packet drop ratio, Goodput versus packet error rate, and Jain’s fairness index under varying conditions like node count, packet rate, and speed. The results were compared with conventional TCP congestion control algorithms, demonstrating inter-protocol fairness and analyzing the behavior of the congestion window.
-                                            <br><a href="https://github.com/Sadat-Shahriyar/TCP-LogwestwoodPlus">[Code]</a>
-                                        </p>
-                                        <div style="text-align: left;">
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">NS3</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row experience">
-                        <div class="col-auto text-center flex-column d-none d-sm-flex">
-                            <div class="row h-50">
-                                <div class="col border-right">&nbsp;</div>
-                                <div class="col">&nbsp;</div>
-                            </div>
-                            <div class="m-2">
-                                <span class="badge badge-pill border ">&nbsp;</span>
-                            </div>
-                            <div class="row h-50">
-                                <div class="col ">&nbsp;</div>
-                                <div class="col">&nbsp;</div>
-                            </div>
-                        </div>
-                        <div class="col py-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Library Management System</h4>
-                                    <div class="text-muted exp-meta">
-
-                                        <span class="middot-divider"></span>
-                                        <p>
-                                            This software, developed using JavaFX and MsSQL, is designed for managing a library. It handles book records by allowing the addition and deletion of entries, as well as managing the book rental system. Additionally, it includes a file-sharing feature that enables library peers to share files across a Wi-Fi network.
-                                            <br><a href="https://github.com/Sadat-Shahriyar/Library-management-system">[Code]</a>
-                                        </p>
-                                        <div style="text-align: left;">
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">JavFX</span>
-                                            <span style="display: inline-block; margin: 2px; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f5f5f5; font-size: 12px;">MySQL</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
             </br>
@@ -899,7 +757,7 @@
         </div>
     </section> 
 
-    <section id="achievements" class="home-section wg-pages   ">
+    <!-- <section id="achievements" class="home-section wg-pages   ">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-4 section-heading">
@@ -910,21 +768,6 @@
                         <li>
                             <i class="fa-li fa fa-trophy text-warning"></i> Finalist, Bangladesh National NLP Hackathon hosted by Bangladesh Open Source Network (2023)
                         </li>
-                        <li>
-                            <i class="fa-li fa fa-trophy text-warning"></i> Finalist, Bangladesh Bangladesh Blockchain Olympiad (2022)
-                        </li>
-                        <li>
-                            <i class="fa-li fa fa-trophy text-warning"></i> 2nd Runner up, HackNSU 2.0 (2020)</a>
-                        </li>
-                        <li>
-                            <i class="fa-li fa fa-trophy text-warning"></i> Finalist, DhakaAI (2020)</a>
-                        </li>
-                        <li>
-                            <i class="fa-li fa fa-trophy text-warning"></i> 9th position, Programming Contest, RU CSE FEST (2019)
-                        </li>
-                        <li>
-                            <i class="fa-li fa fa-trophy text-warning"></i> Dean's award for academinc excellence, Faculty of Electrical and Electronic Engineering, RU (2019-2021)
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -932,7 +775,8 @@
             </br>
             </br>
         </div>
-    </section>
+    </section> -->
+
     <section id="leadership" class="home-section wg-pages">
         <div class="container">
             <div class="row">
@@ -957,25 +801,6 @@
                             I organized internal Generative AI training at Samsung R&D Institute with 30 selected employees to enhance their skills in the Generative AI domain. My role included coordinating lecture assignments with other trainers and leading individual training sessions. Notable sessions I conducted included topics like Introduction to Deep Learning and ANN, Image Processing with CNN, Introduction to LLM, Prompt Engineering, and Fine-tuning LLMs. Our efforts were well-received, earning recognition from both the Managing Director of Samsung R&D Institute, Bangladesh and Korean Headquarters.
                         </div>
                     </div>
-                    
-
-                    <!-- <div class="card-simple">
-                        <h3 class="article-title mb-1 mt-3">
-                            Organizer
-                        </h3>
-                        <div>
-                            <span class="article-header"><a href="https://www.facebook.com/RUcsefest2022/">RU CSE FEST 2022 </a></span>
-                        </div>
-                        <div class="article-metadata">
-                            <span class="article-date">
-                                June 2022 - August 2022
-                        </span>
-                            <span class="middot-divider"></span>
-                        </div>
-                        <div class="article-style">
-                            I coordinated inter-university competitions such as hackathon, programming contest; as well as cultural programs on behalf of the graduating class. 
-                        </div>
-                    </div> -->
 
                 </div>
             </div>
